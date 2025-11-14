@@ -1,0 +1,13 @@
+# Ignorar arquivos de ambiente
+part2_pipeline/.env
+
+# Ignorar logs
+part2_pipeline/logs/
+
+# Ignorar volumes de banco de dados
+fhir-db-data/
+postgres-db-volume/
+
+# Ignorar cache do Python
+__pycache__/
+*.pyc

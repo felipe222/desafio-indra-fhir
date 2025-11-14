@@ -1,0 +1,193 @@
+[2025-11-12T23:32:25.945+0000] {processor.py:161} INFO - Started process (PID=51) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:32:25.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:32:25.947+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:32:25.947+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:32:26.957+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:32:27.051+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:32:27.051+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:carga_pacientes_fhir_bonus_v1
+[2025-11-12T23:32:27.060+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:32:27.060+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:carga_pacientes_fhir_bonus_v1
+[2025-11-12T23:32:27.067+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:32:27.066+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:carga_pacientes_fhir_bonus_v1
+[2025-11-12T23:32:27.067+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:32:27.067+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:32:27.080+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:32:27.079+0000] {dag.py:3058} INFO - Creating ORM DAG for carga_pacientes_fhir_bonus_v1
+[2025-11-12T23:32:27.080+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:32:27.080+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:32:27.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 1.153 seconds
+[2025-11-12T23:32:57.633+0000] {processor.py:161} INFO - Started process (PID=111) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:32:57.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:32:57.635+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:32:57.635+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:32:57.959+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:32:57.971+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:32:57.971+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:32:57.980+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:32:57.980+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:32:57.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.362 seconds
+[2025-11-12T23:33:28.025+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:33:28.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:33:28.027+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:33:28.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:33:28.349+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:33:28.359+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:33:28.359+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:33:28.367+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:33:28.367+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:33:28.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.358 seconds
+[2025-11-12T23:33:58.470+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:33:58.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:33:58.472+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:33:58.472+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:33:58.773+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:33:58.783+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:33:58.783+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:33:58.791+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:33:58.790+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:33:58.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.334 seconds
+[2025-11-12T23:34:29.698+0000] {processor.py:161} INFO - Started process (PID=293) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:34:29.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:34:29.700+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:34:29.700+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:34:30.023+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:34:30.034+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:34:30.034+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:34:30.044+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:34:30.044+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:34:30.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.363 seconds
+[2025-11-12T23:35:00.797+0000] {processor.py:161} INFO - Started process (PID=350) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:35:00.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:35:00.799+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:35:00.799+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:35:01.105+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:35:01.116+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:35:01.115+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:35:01.123+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:35:01.123+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:35:01.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.341 seconds
+[2025-11-12T23:35:31.215+0000] {processor.py:161} INFO - Started process (PID=409) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:35:31.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:35:31.217+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:35:31.217+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:35:31.534+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:35:31.547+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:35:31.547+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:35:31.555+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:35:31.555+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:35:31.569+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.356 seconds
+[2025-11-12T23:36:01.658+0000] {processor.py:161} INFO - Started process (PID=468) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:36:01.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:36:01.660+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:36:01.659+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:36:01.968+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:36:01.979+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:36:01.979+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:36:01.987+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:36:01.987+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:36:01.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.344 seconds
+[2025-11-12T23:36:32.131+0000] {processor.py:161} INFO - Started process (PID=529) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:36:32.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:36:32.133+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:36:32.133+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:36:32.450+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:36:32.460+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:36:32.460+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:36:32.468+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:36:32.468+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:36:32.480+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.351 seconds
+[2025-11-12T23:37:02.565+0000] {processor.py:161} INFO - Started process (PID=588) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:37:02.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:37:02.567+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:37:02.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:37:02.861+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:37:02.872+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:37:02.871+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:37:02.879+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:37:02.879+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:37:02.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.327 seconds
+[2025-11-12T23:37:33.758+0000] {processor.py:161} INFO - Started process (PID=645) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:37:33.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:37:33.760+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:37:33.760+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:37:34.076+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:37:34.086+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:37:34.086+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:37:34.095+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:37:34.095+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:37:34.107+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.351 seconds
+[2025-11-12T23:38:04.155+0000] {processor.py:161} INFO - Started process (PID=705) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:38:04.156+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:38:04.158+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:38:04.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:38:04.465+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:38:04.476+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:38:04.476+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:38:04.484+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:38:04.484+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:38:04.496+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.343 seconds
+[2025-11-12T23:38:34.520+0000] {processor.py:161} INFO - Started process (PID=763) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:38:34.521+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:38:34.522+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:38:34.522+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:38:34.838+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:38:34.849+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:38:34.849+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:38:34.857+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:38:34.857+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:38:34.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.352 seconds
+[2025-11-12T23:39:05.053+0000] {processor.py:161} INFO - Started process (PID=823) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:39:05.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:39:05.055+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:39:05.054+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:39:05.366+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:39:05.377+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:39:05.376+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:39:05.384+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:39:05.384+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:39:05.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.346 seconds
+[2025-11-12T23:39:35.529+0000] {processor.py:161} INFO - Started process (PID=884) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:39:35.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:39:35.531+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:39:35.531+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:39:35.847+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:39:35.858+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:39:35.857+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:39:35.865+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:39:35.865+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:39:35.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.351 seconds
+[2025-11-12T23:40:05.975+0000] {processor.py:161} INFO - Started process (PID=943) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:40:05.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:40:05.977+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:40:05.977+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:40:06.300+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:40:06.311+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:40:06.310+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:40:06.319+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:40:06.319+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:40:06.332+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.359 seconds
+[2025-11-12T23:40:36.398+0000] {processor.py:161} INFO - Started process (PID=1004) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:40:36.399+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:40:36.400+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:40:36.400+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:40:36.718+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:40:36.729+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:40:36.729+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:40:36.739+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:40:36.739+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:40:36.753+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.358 seconds
+[2025-11-12T23:41:06.823+0000] {processor.py:161} INFO - Started process (PID=1066) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:41:06.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:41:06.825+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:41:06.825+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:41:07.146+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:41:07.158+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:41:07.158+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:41:07.168+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:41:07.167+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:41:07.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.359 seconds
+[2025-11-12T23:41:37.968+0000] {processor.py:161} INFO - Started process (PID=1125) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:41:37.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:41:37.970+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:41:37.970+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:41:38.285+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:41:38.296+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:41:38.296+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:41:38.304+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:41:38.304+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:41:38.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.350 seconds
+[2025-11-12T23:42:09.301+0000] {processor.py:161} INFO - Started process (PID=1187) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:42:09.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:42:09.303+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:42:09.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:42:09.599+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:42:09.611+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:42:09.610+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:42:09.619+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:42:09.619+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:42:09.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.332 seconds
+[2025-11-12T23:42:39.664+0000] {processor.py:161} INFO - Started process (PID=1244) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:42:39.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:42:39.666+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:42:39.666+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:42:39.998+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:42:40.009+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:42:40.009+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:42:40.017+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:42:40.017+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:42:40.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.369 seconds
+[2025-11-12T23:43:10.870+0000] {processor.py:161} INFO - Started process (PID=1301) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:43:10.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:43:10.872+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:43:10.872+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:43:11.179+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:43:11.189+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:43:11.189+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:43:11.197+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:43:11.197+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:43:11.208+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.340 seconds
+[2025-11-12T23:43:42.155+0000] {processor.py:161} INFO - Started process (PID=1358) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:43:42.156+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:43:42.157+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:43:42.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:43:42.592+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:43:42.602+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:43:42.602+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:43:42.610+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:43:42.610+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:43:42.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.471 seconds
+[2025-11-12T23:44:13.454+0000] {processor.py:161} INFO - Started process (PID=1415) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:44:13.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:44:13.456+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:44:13.456+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:44:13.777+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:44:13.790+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:44:13.790+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:44:13.798+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:44:13.798+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:44:13.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.360 seconds
+[2025-11-12T23:44:44.735+0000] {processor.py:161} INFO - Started process (PID=1472) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:44:44.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:44:44.736+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:44:44.736+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:44:45.050+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:44:45.062+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:44:45.062+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:44:45.070+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:44:45.070+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:44:45.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.350 seconds
+[2025-11-12T23:45:15.870+0000] {processor.py:161} INFO - Started process (PID=1529) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:45:15.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:45:15.872+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:45:15.872+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:45:16.231+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:45:16.244+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:45:16.244+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:45:16.255+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:45:16.255+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:45:16.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.406 seconds
+[2025-11-12T23:45:47.144+0000] {processor.py:161} INFO - Started process (PID=1586) to work on /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:45:47.144+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/carga_pacientes_dag.py for tasks to queue
+[2025-11-12T23:45:47.146+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:45:47.146+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:45:47.488+0000] {processor.py:840} INFO - DAG(s) 'carga_pacientes_fhir_bonus_v1' retrieved from /opt/airflow/dags/carga_pacientes_dag.py
+[2025-11-12T23:45:47.501+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:45:47.501+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-12T23:45:47.510+0000] {logging_mixin.py:188} INFO - [2025-11-12T23:45:47.510+0000] {dag.py:3823} INFO - Setting next_dagrun for carga_pacientes_fhir_bonus_v1 to None, run_after=None
+[2025-11-12T23:45:47.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/carga_pacientes_dag.py took 0.383 seconds
