@@ -1,0 +1,110 @@
+server:
+  port: 8080
+  tomcat:
+    relaxed-query-chars: "|"
+
+management:
+  endpoints:
+    enabled-by-default: false
+    web:
+      exposure:
+        include: "health"
+  endpoint:
+    health:
+      enabled: true
+      probes:
+        enabled: true
+      group:
+        liveness:
+          include: [ "livenessState", "readinessState" ]
+    info:
+      enabled: true
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  prometheus:
+    metrics:
+      export:
+        enabled: true
+
+spring:
+  ai:
+    mcp:
+      server:
+        name: FHIR MCP Server
+        version: 1.0.0
+        enabled: true
+        instructions: "This server provides access to a FHIR RESTful API."
+        streamable-http:
+          mcp-endpoint: /mcp/messages
+
+  main:
+    allow-bean-definition-overriding: false
+    allow-circular-references: true
+
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.elasticsearch.ElasticsearchRestClientAutoConfiguration
+
+  flyway:
+    enabled: false
+    baseline-on-migrate: true
+    fail-on-missing-locations: false
+
+  datasource:
+    url: jdbc:postgresql://db:5432/hapi
+    username: hapi_user
+    password: hapi_password
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: ca.uhn.fhir.jpa.model.dialect.HapiFhirPostgresDialect
+        format_sql: false
+        show_sql: false
+        hbm2ddl:
+          auto: update
+        jdbc:
+          batch_size: 20
+        cache:
+          use_query_cache: false
+          use_second_level_cache: false
+          use_structured_entries: false
+          use_minimal_puts: false
+
+hapi:
+  fhir:
+    fhir_version: R4
+    openapi_enabled: true
+
+    narrative_enabled: false
+    mdm_enabled: false
+
+    bulk_export_enabled: false
+    bulk_import_enabled: false
+
+    cors:
+      allow_Credentials: true
+      allowed_origin:
+        - "*"
+
+    search-coord-core-pool-size: 20
+    search-coord-max-pool-size: 100
+    search-coord-queue-capacity: 200
+
+    search_prefetch_thresholds: 13,503,2003,-1
+
+    logical_urls:
+      - http://terminology.hl7.org/*
+      - https://terminology.hl7.org/*
+      - http://snomed.info/*
+      - https://snomed.info/*
+      - http://unitsofmeasure.org/*
+      - https://unitsofmeasure.org/*
+      - http://loinc.org/*
+      - https://loinc.org/*
+
+    inline_resource_storage_below_size: 4000
