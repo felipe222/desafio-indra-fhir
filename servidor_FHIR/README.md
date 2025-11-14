@@ -14,4 +14,4 @@ Este componente cria um servidor HAPI FHI com um banco de dados PostgreSQL.
     docker-compose up -d
 
 
-2.  Aguarde 1-2 minutos para que o servidor HAPI FHIR (Java) inicie completamente.
+2.  Aguarde 1-2 minutos para que o servidor HAPI FHIR inicie completamente.
