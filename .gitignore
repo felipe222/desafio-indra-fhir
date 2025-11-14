@@ -1,8 +1,8 @@
 # Ignorar arquivos de ambiente
-part2_pipeline/.env
+pipeline_Airflow/.env
 
 # Ignorar logs
-part2_pipeline/logs/
+pipeline_Airflow/logs/
 
 # Ignorar volumes de banco de dados
 fhir-db-data/
