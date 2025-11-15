@@ -30,9 +30,8 @@ A DAG `carga_pacientes` (definida em `dags/carga_pacientes_dag.py`) é responsá
     AIRFLOW_UID=1000
 
 2.  **Criar as pastas de logs e plugins:**
-    Execute esses comonandos para criar as pastas de logs e plugin, isso é necessário para o funcionamento do airflow:
-    mkdir -p /opt/airflow/logs
-    mkdir -p /opt/airflow/plugins
+    Dentro da pasta pipeline_Airflow execute:
+    mkdir logs plugins
 
 3.  **Construir a Imagem Customizada:**
     Este comando irá construir a imagem Docker local (definida no `Dockerfile`), instalando as dependências Python (`pandas`, `requests`, `pendulum`).
