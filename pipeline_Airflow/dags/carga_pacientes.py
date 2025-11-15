@@ -135,6 +135,8 @@ def dag_carga_pacientes_fhir():
             except Exception as e:
                 logging.error(f"Erro linha {index} ({row['Nome']}): {e}")
                 falhas += 1
+                
+        logging.info(f"Carga finalizada. Registros processados: {len(df)}, Sucessos: {sucessos}, Falhas: {falhas}")
 
         if falhas > 0:
             raise Exception(f"{falhas} registros falharam.")
